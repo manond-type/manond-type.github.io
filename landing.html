@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manond | Typography for the Thoughtful Mind</title>
+    <style>
+        :root {
+            --bg-color: #fcfbf9; /* Warm paper tone */
+            --text-color: #2c2c2c; /* Soft charcoal */
+            --accent-color: #8c7b6a; /* Earthy bronze */
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-rendering: optimizeLegibility;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 1.5s ease-in;
+        }
+        .logogram {
+            font-size: 32px;
+            letter-spacing: 8px;
+            margin-bottom: 40px;
+            font-weight: 300;
+            color: var(--accent-color);
+        }
+        h1 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        p {
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            opacity: 0.7;
+            margin-bottom: 40px;
+        }
+        .links {
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        a {
+            color: var(--text-color);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border 0.3s;
+        }
+        a:hover { border-bottom: 1px solid var(--accent-color); }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="logogram">M + D</div>
+        <h1>Manond</h1>
+        <p>Typography for the Thoughtful Mind</p>
+        
+        <div class="links">
+            <a href="https://instagram.com/manond.type" target="_blank">Instagram</a>
+            &nbsp; &nbsp; • &nbsp; &nbsp;
+            <span>Coming Early 2026</span>
+        </div>
+    </div>
+</body>
+</html>
